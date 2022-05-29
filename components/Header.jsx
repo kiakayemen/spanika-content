@@ -1,11 +1,12 @@
 import styles from '../styles/Header.module.css'
+import Image from 'next/image'
 import Link from "next/dist/client/link"
 const Header = () => {
   return (
 	  <header className={styles.header}>
 		  <div className={styles.logo}>
 			  <Link href='/'>
-				  <img src="asset2.png" alt="logo" width="150px"/>
+				  <Image src="/asset2.png" alt="logo" width="150" height="41"/>
 			  </Link>
 		  </div>
 		  <div className={styles.menu}>
