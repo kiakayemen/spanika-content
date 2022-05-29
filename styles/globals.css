@@ -1,9 +1,21 @@
+*::selection{
+  background-color: #fb4653;
+  color: #17181c;
+}
+a:hover{
+  color: #fb4653;
+}
+a:active{
+  color: #fb4653;
+}
 html,
 body {
-  padding: 0;
+  /* padding: 50px 0px ; */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: "iranSansWeb", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #17181c;
+  color: #fff;
 }
 
 a {
