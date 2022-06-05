@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
 				<title>آموزش زبان اسپانیایی با اسپنیکا - Spanika.uno</title>
 			</Head>
 			<Container maxWidth="xl" sx={{
-				margin: "0 auto",
+				margin: "0",
 				width: "100%",
 				padding: "7rem 0"
 			}}>
